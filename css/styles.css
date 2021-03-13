@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
 html,body{
   margin:0;
@@ -17,7 +18,7 @@ a{
   align-items: flex-start;
   align-content: flex-start;
   height:50vw;
-  min-height:400px;
+  min-height:200px;
   max-height:550px;
   min-width:300px;
   color:#eee;
@@ -55,21 +56,6 @@ a{
   color:#eee
 }
 
-.logo{
-  border:2px solid #fff;
-  border-radius:3px;
-  text-decoration:none;
-  display:inline-flex;
-  align-items:center;
-  align-content:center;
-  margin:20px;
-  padding:0px 10px;
-  font-weight:900;
-  font-size:1.1em;
-  line-height:1;
-  box-sizing:border-box;
-  height:40px
-}
 .sides, .info{
   flex: 0 0 auto;
   width:50%
@@ -82,9 +68,9 @@ a{
 }
 .author{
   display:inline-block;
-  width:130px;
-  height:50px;
-  border-radius:13%;
+  width:33%;
+  height:33%;
+  border-radius:13px;
   background:url("../img/larusticaparcsijardins.png") center no-repeat;
   background-size:cover;
   box-shadow:0 2px 3px rgba(0,0,0,0.3);
