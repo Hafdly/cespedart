@@ -149,3 +149,117 @@
     transform: rotate(0deg);
   }
 }
+
+/*--------------Redes Sociales--------------*/
+
+
+.contenedor-redes-sociales {
+  background: #fff;
+  margin: 20px 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.contenedor-redes-sociales a {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  padding: 0;
+  color: #fff;
+  border-radius: 2px;
+  background: #fff;
+  margin: 5px;
+}
+
+.contenedor-redes-sociales a:after, .contenedor-redes-sociales a:before {
+  display: none;
+}
+
+.contenedor-redes-sociales a span.cuadrado {
+  display: block;
+  background: #fff;
+  line-height: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.contenedor-redes-sociales a span.cuadrado i {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.contenedor-redes-sociales a span.titulo {
+  margin: 0 20px;
+  font-size: 16px;
+  transition: all 200ms linear;
+}
+
+.contenedor-redes-sociales a:hover span.titulo {
+  color: #fff;
+}
+
+
+/*---------------Colores de los botones---------------*/
+
+.contenedor-redes-sociales .facebook:hover, .contenedor-redes-sociales .twitter:hover, .contenedor-redes-sociales .gplus:hover {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+.contenedor-redes-sociales .facebook {
+  border: 2px solid #3b5998;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.contenedor-redes-sociales .facebook:hover, .contenedor-redes-sociales .facebook span.cuadrado {
+  background: #3b5998;
+}
+
+.contenedor-redes-sociales .facebook span.titulo {
+  color: #3b5998;
+}
+
+.contenedor-redes-sociales .twitter {
+  border: 2px solid #55ACEE;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.contenedor-redes-sociales .twitter:hover, .contenedor-redes-sociales .twitter span.cuadrado {
+  background: #55ACEE;
+}
+
+.contenedor-redes-sociales .twitter span.titulo {
+  color: #55ACEE;
+}
+
+.contenedor-redes-sociales .gplus {
+  border: 2px solid #d64136;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.contenedor-redes-sociales .gplus:hover, .contenedor-redes-sociales .gplus span.cuadrado {
+  background: #d64136;
+}
+
+.contenedor-redes-sociales .gplus span.titulo {
+  color: #d64136;
+}
+
+
+/*--------------Mediaqueries--------------*/
+
+@media screen and (max-width:480px) {
+  .contenedor-redes-sociales a {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 10px;
+  }
+}
