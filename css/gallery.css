@@ -203,7 +203,7 @@
 
 /*---------------Colores de los botones---------------*/
 
-.contenedor-redes-sociales .facebook:hover, .contenedor-redes-sociales .twitter:hover, .contenedor-redes-sociales .gplus:hover {
+.contenedor-redes-sociales .facebook:hover, .contenedor-redes-sociales .twitter:hover, .instagram:hover, .contenedor-redes-sociales .gplus:hover {
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
 }
@@ -238,19 +238,20 @@
   color: #55ACEE;
 }
 
-.contenedor-redes-sociales .gplus {
-  border: 2px solid #d64136;
+
+.contenedor-redes-sociales .instagram {
+  border: 2px solid #A37EF2;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 
-.contenedor-redes-sociales .gplus:hover, .contenedor-redes-sociales .gplus span.cuadrado {
-  background: #d64136;
+.contenedor-redes-sociales .instagram:hover, .contenedor-redes-sociales .instagram span.cuadrado {
+  background: #A37EF2;
 }
 
-.contenedor-redes-sociales .gplus span.titulo {
-  color: #d64136;
+.contenedor-redes-sociales .instagram span.titulo {
+  color: #A37EF2;
 }
 
 
