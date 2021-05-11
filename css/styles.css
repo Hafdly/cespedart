@@ -68,13 +68,13 @@ a{
 }
 .author{
   display:inline-block;
-  width:33%;
-  height:33%;
+  width: 100%;
+  height:100%;
   border-radius:13px;
-  background:url("../img/larusticaparcsijardins.png") center no-repeat;
+  background:url("../img/CESPEDART_cesped_artificial.png") center no-repeat;
   background-size:cover;
-  box-shadow:0 2px 3px rgba(0,0,0,0.3);
-  margin-bottom:7px
+  box-shadow:0 1px 3px rgba(3, 131, 9, 0.3);
+  margin-bottom:2px;
 }
 .info h4, .meta{
   font-size:0.7em
@@ -84,7 +84,7 @@ a{
 }
 @keyframes grow {
   0% { transform: scale(1) translateY(0px)}
-  50% { transform: scale(1.2) translateY(-300px)}
+  50% { transform: scale(1.2) translateY(-300px)}å
 }
 .content{  
   padding:5% 10%;
@@ -103,3 +103,74 @@ a{
 .twtr{
   margin-top:100px
 }.btn.twtr:after{content:"\1F426";padding-left:5px}
+
+
+
+nav {
+  position: relative;
+  width: auto;
+  top: 13%;
+  z-index: 1;
+  
+}
+nav ul {
+  background: #48cfad;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  position: relative;
+  display: inline-block;
+  margin-right: -4px;
+  text-align: center;
+}
+nav ul li:first-child a {
+  background: #37bc9b;
+  width: 49px;
+  padding: 15px 0;
+}
+nav ul li:last-child {
+  margin: 0;
+}
+nav ul li a {
+  display: block;
+  background: #48cfad;
+  padding: 15px 20px;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.2s linear;
+}
+nav ul li a:hover {
+  background: #37bc9b;
+}
+nav ul li ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 240px;
+  border-bottom: 4px solid #48cfad;
+}
+nav ul li ul li {
+  display: block;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+nav ul li ul li a {
+  display: block;
+  background: #3a3a3a;
+  padding: 10px 15px;
+}
+nav ul li ul li a:first-child {
+  background: #3a3a3a;
+  width: auto;
+  border-left: 4px solid transparent;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+nav ul li ul li a:hover {
+  background: #333333;
+  border-left: 4px solid #48cfad;
+}
