@@ -27,7 +27,7 @@ a{
 .header:after{
   content:"";
   width:100%;
-  height:100%;
+  height:100%;s
   position:absolute;
   bottom:0;
   left:0;
@@ -76,6 +76,18 @@ a{
   box-shadow:0 1px 3px rgba(3, 131, 9, 0.3);
   margin-bottom:2px;
 }
+
+  .verdalia{
+    display:inline-block;
+    width: 50%;
+    height:50%;
+    border-radius:13px;
+    background:url("../img/pics_words/verdalia/Logos/patner_verdalia_Comunidad_Valenciana.png") center no-repeat;
+    background-size:cover;
+    box-shadow:0 1px 3px rgba(3, 131, 9, 0.3);
+    margin-bottom:2px;
+  }
+
 .info h4, .meta{
   font-size:0.7em
 }
