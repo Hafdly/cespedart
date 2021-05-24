@@ -9,7 +9,7 @@ html,body{
 a{
   text-decoration:none
 }
-.header{
+.header{  
   position:relative;
   overflow:hidden;  
   display:flex;
@@ -73,8 +73,12 @@ a{
   border-radius:13px;
   background:url("../img/CESPEDART_cesped_artificial.png") center no-repeat;
   background-size:cover;
-  box-shadow:0 1px 3px rgba(3, 131, 9, 0.3);
   margin-bottom:2px;
+
+  margin: 0 1rem;
+
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 3s; /* don't forget to set a duration! */
 }
 
   .verdalia{
@@ -119,7 +123,14 @@ nav {
   
 }
 nav ul {
-  background: #48cfad;
+
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3a733f, #2d4e03);
+  background: linear-gradient(180deg, #02a670, #006020);
+  color: white;
+  margin-top:0%;
+
+  
   list-style: none;
   margin: 0;
   padding: 0;
@@ -129,33 +140,48 @@ nav ul li {
   display: inline-block;
   margin-right: -4px;
   text-align: center;
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3a733f, #2d4e03);
+  background: linear-gradient(180deg, #02a670, #006020);
 }
 nav ul li:first-child a {
-  background: #37bc9b;
+  
   width: 49px;
   padding: 15px 0;
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3a733f, #2d4e03);
+  background: linear-gradient(180deg, #02a670, #006020);
 }
 nav ul li:last-child {
   margin: 0;
 }
 nav ul li a {
   display: block;
-  background: #48cfad;
+  
   padding: 15px 20px;
   color: #fff;
   font-size: 14px;
   text-decoration: none;
   transition: 0.2s linear;
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3a733f, #2d4e03);
+  background: linear-gradient(180deg, #02a670, #006020);
 }
 nav ul li a:hover {
-  background: #37bc9b;
+  
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3a733f, #2d4e03);
+  background: linear-gradient(180deg, #02a670, #006020);
 }
 nav ul li ul {
   position: absolute;
   top: 100%;
   left: 0;
   width: 240px;
-  border-bottom: 4px solid #48cfad;
+  border-bottom: 4px solid #43964e;
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3a733f, #2d4e03);
+  background: linear-gradient(180deg, #02a670, #006020);
 }
 nav ul li ul li {
   display: block;
@@ -177,5 +203,8 @@ nav ul li ul li a:first-child {
 }
 nav ul li ul li a:hover {
   background: #333333;
-  border-left: 4px solid #48cfad;
+  
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #3a733f, #2d4e03);
+  background: linear-gradient(180deg, #02a670, #006020);
 }
