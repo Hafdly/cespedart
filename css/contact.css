@@ -33,7 +33,7 @@
   }
   
   .company-info {
-    background: #c9e6ff;
+    background: #b7ebaa;
   }
   
   .company-info h3, .company-info ul {
@@ -42,7 +42,7 @@
   }
   
   .contact {
-    background: #f9feff;
+    background: #bef0bb;
   }
   
   /* Form */
@@ -72,14 +72,14 @@
   }
   
   .contact form button {
-    background: #c9e6ff;
+    background: #86be89;
     border:0;
     text-transform:uppercase;
   }
   
   .contact form button:hover, .contact form button:focus {
-    background: #92bde7;
-    color: #fff;
+    background: #92e7b8;
+    color: rgb(250, 48, 139);
     outline:0;
     transition: background-color 2s ease-out;
   }
